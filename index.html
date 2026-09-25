@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basma Sghairi | Junior Full Stack Web Developer</title>
+    <meta name="description"
+        content="Portfolio of Basma, a Junior Full Stack Web Developer specializing in React.js, Laravel, and MySQL.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&family=Outfit:wght@400;600;700&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Basma Programmer<span>.</span></a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#services">Services</a>
+                <a href="#contact" class="btn-cta-nav">Contact</a>
+                <button id="theme-toggle" aria-label="Toggle Dark Mode">
+                    <i class="fas fa-sun"></i>
+                </button>
+            </div>
+            <button class="hamburger" aria-label="Open Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu">
+        <button class="close-menu"><i class="fas fa-times"></i></button>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container hero-content">
+            <span class="greeting fade-in">Hello, I'm</span>
+            <h1 class="fade-in delay-1">Basma sghairi</h1>
+            <h2 class="fade-in delay-2">Junior Full Stack Web Developer</h2>
+            <p class="hero-intro fade-in delay-3">
+                Passionate Full Stack Web Developer with hands-on academic experience in building complete web
+                applications, combining clean Frontend interfaces with structured Backend logic.
+            </p>
+            <div class="hero-buttons fade-in delay-4">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+        <!-- Abstract Background Shapes -->
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image-wrapper fade-in-scroll">
+                    <img src="images/img.jpg" alt="Basma - Full Stack Developer" class="about-image">
+                    <div class="image-backdrop"></div>
+                </div>
+                <div class="about-text fade-in-scroll">
+                    <h3>Who I Am</h3>
+                    <p>
+                        I am Basma, a third-year Computer Engineering student specializing in Full Stack Web
+                        Development. I have practical experience working with modern technologies such as
+                        <strong>React.js, Laravel, MySQL, and JavaScript</strong>.
+                    </p>
+                    <p>
+                        I enjoy building end-to-end web solutions, from designing responsive user interfaces to
+                        implementing backend logic and database management. I am highly motivated, detail-oriented, and
+                        constantly seeking to improve my technical skills by learning new tools and best practices.
+                    </p>
+                    <div class="social-links-about">
+                        <a href="https://www.linkedin.com/in/basma-sghairi-809013323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                            aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding bg-alt">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+
+                <!-- Category 1 -->
+                <div class="skill-category fade-in-scroll">
+                    <h3><i class="fas fa-code"></i> Languages</h3>
+                    <div class="skill-tags">
+                        <span>JavaScript</span>
+                        <span>Java (OOP)</span>
+                        <span>Python</span>
+                        <span>PHP</span>
+                    </div>
+                </div>
+
+                <!-- Category 2 -->
+                <div class="skill-category fade-in-scroll">
+                    <h3><i class="fas fa-laptop-code"></i> Frontend</h3>
+                    <div class="skill-tags">
+                        <span>React.js</span>
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>Bootstrap</span>
+                    </div>
+                </div>
+
+                <!-- Category 3 -->
+                <div class="skill-category fade-in-scroll">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill-tags">
+                        <span>Laravel</span>
+                        <span> Node.js</span>
+                        <span>Express.js</span>
+
+
+
+
+                    </div>
+                </div>
+
+                <!-- Category 4 -->
+                <div class="skill-category fade-in-scroll">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <div class="skill-tags">
+                        <span>MySQL</span>
+                        <span>PL/SQL</span>
+                        <span>MongoDB</span>
+                    </div>
+                </div>
+
+                <!-- Category 5 -->
+                <div class="skill-category fade-in-scroll">
+                    <h3><i class="fas fa-tools"></i> Tools</h3>
+                    <div class="skill-tags">
+                        <span>Git & GitHub</span>
+                        <span>VS Code</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+
+                <!-- Project 1: GourmetBox -->
+                <article class="project-card gourmetbox-card fade-in-scroll">
+                    <div class="project-image-container image-toggle-container"
+                        style="cursor: pointer; position: relative;">
+                        <img src="images/imag2.png" alt="GourmetBox UI" class="project-img img-front">
+                        <img src="images/img3.png" alt="GourmetBox Form" class="project-img img-back"
+                            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; transition: opacity 0.5s ease-in-out;">
+                        <div class="click-hint"
+                            style="position: absolute; bottom: 10px; right: 10px; background: rgba(0,0,0,0.6); color: white; padding: 5px 10px; border-radius: 20px; font-size: 0.8rem; pointer-events: none;">
+                            <i class="fas fa-hand-pointer"></i> Click to view 2nd Image
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">🍳 GourmetBox – Recipe Manager</h3>
+                            <span class="project-type">Full-Stack Web Application</span>
+                        </div>
+                        <p class="project-description">
+                            A modern recipe management application that leverages AI to provide personalized recipe
+                            suggestions based on ingredients you have at home. Built with a fast Python backend and a
+                            sleek, coral-accented frontend.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>FastAPI</span>
+                            <span>SQLite</span>
+                            <span>Vanilla JS</span>
+                        </div>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> AI-powered recipe suggestions</li>
+                            <li><i class="fas fa-check"></i> Complete CRUD operations</li>
+                            <li><i class="fas fa-check"></i> Responsive UI with modern typography</li>
+                            <li><i class="fas fa-check"></i> Secure & persistent data storage</li>
+                        </ul>
+                         <div style="margin-top: 20px;">
+                            <a href="https://smartcook-smart.netlify.app//" target="_blank" class="btn btn-primary"
+                                style="padding: 10px 20px; font-size: 0.9rem;">
+                                <i class="fas fa-external-link-alt" style="margin-right: 5px;"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card fade-in-scroll">
+                    <div class="project-image-container image-toggle-container"
+                        style="cursor: pointer; position: relative;">
+                        <img src="images/clothing_project_real.png" alt="Online Clothing Store"
+                            class="project-img img-front">
+                        <img src="images/img1.png" alt="Online Clothing Store Full" class="project-img img-back"
+                            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; transition: opacity 0.5s ease-in-out;">
+                        <div class="click-hint"
+                            style="position: absolute; bottom: 10px; right: 10px; background: rgba(0,0,0,0.6); color: white; padding: 5px 10px; border-radius: 20px; font-size: 0.8rem; pointer-events: none;">
+                            <i class="fas fa-hand-pointer"></i> Click to view
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">🛍️ Online Clothing Store</h3>
+                            <span class="project-type">Full Stack – E-commerce Prototype</span>
+                        </div>
+                        <p class="project-description">
+                            Academic project focused on building a complete online clothing store that allows users to
+                            browse products, view detailed information, and interact with a modern and responsive
+                            interface, while providing a simple management system for product administration.
+                        </p>
+                        <div class="project-tech">
+                            <span>React.js</span>
+                            <span>Node.js</span>
+                            <span>Express.js</span>
+                            <span>MongoDB</span>
+                            <span>Bootstrap</span>
+                        </div>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> Product listing with dynamic data</li>
+                            <li><i class="fas fa-check"></i> Product management (CRUD)</li>
+                            <li><i class="fas fa-check"></i> RESTful API & MVC Architecture</li>
+                            <li><i class="fas fa-check"></i> Modern and fully responsive UI</li>
+                        </ul>
+                        <div style="margin-top: 20px;">
+                            <a href="#" class="btn btn-primary"
+                                style="padding: 10px 20px; font-size: 0.9rem; margin-right: 10px;">
+                                <i class="fas fa-external-link-alt" style="margin-right: 5px;"></i> Live Demo
+                            </a>
+                            <!-- <a href="#" class="btn btn-secondary" style="padding: 10px 20px; font-size: 0.9rem;">
+                                <i class="fab fa-github" style="margin-right: 5px;"></i> GitHub
+                            </a>  -->
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card fade-in-scroll">
+                    <div class="project-image-container">
+                        <img src="images/todo_project.png" alt="To-Do List Application" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">To-Do List Application</h3>
+                            <span class="project-type">Interactive Web App</span>
+                        </div>
+                        <p class="project-description">
+
+                            Project focused on building a simple and interactive To-Do List application that allows
+                            users to manage daily tasks efficiently. The project emphasizes JavaScript fundamentals, DOM
+                            manipulation, and data persistence using localStorage.
+                        </p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> Add and delete tasks</li>
+                            <li><i class="fas fa-check"></i> Mark tasks as completed</li>
+                            <li><i class="fas fa-check"></i> Data persistence with localStorage</li>
+                            <li><i class="fas fa-check"></i> Clean and user-friendly interface</li>
+                        </ul>
+                        <div style="margin-top: 20px;">
+                            <a href="https://sghairibasmatodo.netlify.app/" target="_blank" class="btn btn-primary"
+                                style="padding: 10px 20px; font-size: 0.9rem;">
+                                <i class="fas fa-external-link-alt" style="margin-right: 5px;"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+            <p class="projects-note">📝 These projects were completed individually as part of academic coursework and
+                personal development.</p>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section-padding bg-alt">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item fade-in-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Present</span>
+                        <h3>Junior Full Stack Web Developer</h3>
+                        <p class="timeline-role">Freelance / Academic</p>
+                        <p>Building full-stack applications and honing skills in React, Laravel, and Modern Web Design.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">3rd Year</span>
+                        <h3>Computer Engineering Student</h3>
+                        <p class="timeline-role">University</p>
+                        <p>Specializing in Full Stack Web Development, Algorithms, and Software Engineering principles.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <div class="services-grid">
+                <div class="service-card fade-in-scroll">
+                    <i class="fas fa-layer-group service-icon"></i>
+                    <h3>Full Stack Development</h3>
+                    <p>Building complete web applications with integrated frontend and backend logic.</p>
+                </div>
+                <div class="service-card fade-in-scroll">
+                    <i class="fas fa-paint-brush service-icon"></i>
+                    <h3>Frontend Development</h3>
+                    <p>Creating responsive, modern, and user-friendly interfaces with React and CSS.</p>
+                </div>
+                <div class="service-card fade-in-scroll">
+                    <i class="fas fa-server service-icon"></i>
+                    <h3>Backend Development</h3>
+                    <p>Developing robust server-side logic and APIs using Laravel and PHP.</p>
+                </div>
+                <div class="service-card fade-in-scroll">
+                    <i class="fas fa-graduation-cap service-icon"></i>
+                    <h3>Academic Prototypes</h3>
+                    <p>Assisting with academic web projects and proof-of-concept development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Objective -->
+    <section id="objective" class="section-padding bg-gradient">
+        <div class="container text-center">
+            <h2 class="section-title text-white">Career Objective</h2>
+            <p class="objective-text fade-in-scroll">
+                Motivated Junior Full Stack Web Developer aiming to strengthen professional experience by contributing
+                to real-world projects, continuously improving technical skills, and building scalable, user-focused web
+                applications.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info fade-in-scroll">
+                    <h3>Let's Connect</h3>
+                    <p>I am currently open to internship opportunities and freelance projects. Feel free to reach out!
+                    </p>
+
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>basmasghairi34@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Location Morocco</span>
+                    </div>
+
+                    <div class="social-links-contact">
+                        <a
+                            href="https://www.linkedin.com/in/basma-sghairi-809013323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="https://x.com/basmasghairi34"><i class="fab fa-twitter"></i></a>
+                        <!--  <a href="#"><i class="fab fa-facebook"></i></a>  -->
+                    </div>
+                </div>
+
+                <form class="contact-form fade-in-scroll">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Basma. All rights reserved.</p>
+            <p class="footer-small">Designed with <i class="fas fa-heart"></i> & Code.</p>
+            <a href="#hero" class="back-to-top">Back to Top <i class="fas fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
